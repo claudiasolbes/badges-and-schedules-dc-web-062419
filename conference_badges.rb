@@ -19,14 +19,5 @@ def assign_rooms (attendees)
 end
 
 def printer(attendees)
-badges = []
-  attendees.each do |names|
-   badges << "Hello, my name is #{names}."
-  end
-  print badges
-name_room = []
-  attendees.each_with_index do |attendees, room_assignments|
-    name_room << "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
-  end
-  print name_room
+
 end

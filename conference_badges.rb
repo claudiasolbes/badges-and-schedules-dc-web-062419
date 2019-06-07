@@ -23,4 +23,5 @@ def printer(attendees)
   "Hello, my name is #{names}."
   names = gets.chomp
   "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
+  end
 end

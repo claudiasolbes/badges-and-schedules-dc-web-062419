@@ -26,3 +26,4 @@ def printer(attendees)
   assign_rooms.each do |attendees, room_assignments|
   "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
 end
+end

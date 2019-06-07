@@ -26,3 +26,4 @@ def printer(attendees)
   room_assignments.each do |string|
     puts string
 end
+end

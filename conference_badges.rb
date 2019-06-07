@@ -24,7 +24,7 @@ def printer(attendees)
   assign_rooms(attendees).each.each do |attendees, room_assignments|
   badges_and_room_assignments.each_line do |line|
   puts "Hello, my name is #{names}."
-  line.chomp
+  answer = line.chomp
   puts "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
 end
 end

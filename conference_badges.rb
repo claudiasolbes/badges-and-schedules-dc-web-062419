@@ -19,14 +19,10 @@ def assign_rooms (attendees)
 end
 
 def printer(attendees)
-  badges_and_room_assignments = []
   badges = batch_badge_creator(attendees)
   room_assignments = assign_rooms(attendees)
-    
-  badges_and_room_assignments.each_line do |line|
-  puts "Hello, my name is #{names}."
-  puts "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
-end
-  puts badges_and_room_assignments
-end
+  badges.each do |string|
+    puts string
+  room_assignments.each do |string|
+    puts string
 end

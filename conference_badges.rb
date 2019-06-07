@@ -17,3 +17,5 @@ def assign_rooms (attendees)
   end
   return name_room
 end
+
+def conference_badges

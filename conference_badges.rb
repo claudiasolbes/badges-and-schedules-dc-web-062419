@@ -22,7 +22,6 @@ def printer(attendees)
   badges_and_room_assignments = []
   attendees.each do |names|
    badges_and_room_assignments << "Hello, my name is #{names}."
-   badges_and_room_assignments << "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
-  end
+   end
   puts badges_and_room_assignments
 end

@@ -19,5 +19,6 @@ def assign_rooms (attendees)
 end
 
 def printer(attendees)
+  "Hello, my name is #{names}."
   
 end

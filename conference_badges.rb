@@ -28,8 +28,8 @@ end
 
 def printer(attendees)
   badges_and_room_assignments = []
-  attendees.each_line do |line|
-    badges_and_room_assignments << 
+  attendees.each_line do |names|
+    badges_and_room_assignments << "Hello, my name is #{names}."
   end
   print badges_and_room_assignments
 end

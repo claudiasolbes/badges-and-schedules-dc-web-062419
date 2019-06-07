@@ -21,7 +21,8 @@ end
 def printer(attendees)
   badges_and_room_assignments = []
   batch_badge_creator(attendees).each do |names|
-  assign_rooms(attendees).each do |attendees,    svwve room_assignments|
+  assign_rooms(attendees).each do |attendees, room_assignments|
+    
   badges_and_room_assignments.each_line do |line|
   puts "Hello, my name is #{names}."
   puts "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"

@@ -23,5 +23,5 @@ def printer(attendees)
   attendees.each do |names|
    badges_and_room_assignments << "Hello, my name is #{names}."
    end
-  puts badges_and_room_assignments
+  print badges_and_room_assignments
 end

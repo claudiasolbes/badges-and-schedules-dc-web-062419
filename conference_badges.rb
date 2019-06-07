@@ -18,14 +18,10 @@ def assign_rooms (attendees)
   return name_room
 end
 
-def printer(attendees)
-  badges_and_room_assignments = []
-  attendees.each do |names|
-   badges_and_room_assignments << "Hello, my name is #{names}."
-  end
-  puts badges_and_room_assignments
-end
+
 
 def printer(attendees)
   badges_and_room_assignments.each_line do |line|
-    
+    print line
+  end
+end

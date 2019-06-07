@@ -22,7 +22,7 @@ def printer(attendees)
   badges = []
   attendees.each do |names|
    badges << "Hello, my name is #{names}."
-   badge = line.chmp
+   badge = line.chomp
   end
   puts badges
 end

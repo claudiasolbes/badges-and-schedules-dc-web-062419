@@ -18,4 +18,7 @@ def assign_rooms (attendees)
   return name_room
 end
 
-def conference_badges
+def printer(attendees)
+  print batch_badge_creator
+  print assign_rooms
+end

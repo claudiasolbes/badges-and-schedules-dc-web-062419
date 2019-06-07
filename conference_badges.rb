@@ -19,7 +19,7 @@ def assign_rooms (attendees)
 end
 
 def printer(attendees)
-  batch_badge_creator.each do names
+  batch_badge_creator.each do |names|
   "Hello, my name is #{names}."
   names = gets.chomp
   end

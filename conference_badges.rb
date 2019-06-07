@@ -29,3 +29,4 @@ def printer(attendees)
 end
   puts badges_and_room_assignments
 end
+end

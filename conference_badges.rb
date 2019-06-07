@@ -19,7 +19,7 @@ def assign_rooms (attendees)
 end
 
 def printer(attendees)
-  "Hello, my name is #{names}."
+  "Hello, my name is #{name}."
   name = gets.chomp
   "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
 end

@@ -23,5 +23,6 @@ def printer(attendees)
   "Hello, my name is #{names}."
   names = gets.chomp
   end
-  return "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
+  assign_rooms.each do |attendees, room_assignments|
+  "Hello, #{attendees}! You'll be assigned to room #{room_assignments + 1}!"
 end
